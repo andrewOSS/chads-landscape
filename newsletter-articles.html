@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Sat Mar 07 2026 19:01:57 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Sat Mar 07 2026 21:03:37 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="693f99d6daa8f6bb55001fd9" data-wf-site="68eab013660119903f4a1ef5">
 <head>
   <meta charset="utf-8">
@@ -17,7 +17,7 @@
 <body>
   <header class="nav-section">
     <div class="nav-wrapper">
-      <a href="index.html" class="nav-logo-link w-inline-block"><img src="images/Logo-4k.png" loading="lazy" sizes="(max-width: 7886px) 100vw, 7886px" srcset="images/Logo-4k-p-500.png 500w, images/Logo-4k-p-800.png 800w, images/Logo-4k-p-1080.png 1080w, images/Logo-4k-p-1600.png 1600w, images/Logo-4k-p-2000.png 2000w, images/Logo-4k-p-2600.png 2600w, images/Logo-4k-p-3200.png 3200w, images/Logo-4k.png 7886w" alt="" class="nav-logo"></a>
+      <a href="index.html" class="nav-logo-link w-inline-block"><img src="images/Logo-4k.png" loading="lazy" alt="" class="nav-logo"></a>
       <a href="tel:385-241-8761" class="phone-number-nav">Call<br>385-241-8761</a>
       <nav class="nav-link-list">
         <a href="index.html" class="nav-link-main w-inline-block">
@@ -106,9 +106,9 @@
   </footer>
   <div class="w-embed w-script">
     <script>
-const owner = 'andrewoss'; // replace with your GitHub username
-const repo = 'chads-landscape'; // replace with your repo name
-const folderPath = '/pdf-files/'; // path to your PDFs folder
+const owner = 'pdf-association'; // replace with your GitHub username
+const repo = 'pdf20examples'; // replace with your repo name
+const folderPath = ''; // path to your PDFs folder
 const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${folderPath}`;
 fetch(apiUrl)
   .then(response => response.json())
@@ -126,7 +126,7 @@ fetch(apiUrl)
         link.href = rawUrl;
         link.target = '_blank';
         pdfTitle.textContent = displayName;
-        pdfPhoto.src = "images/pdf-icon.svg";
+        pdfPhoto.src = "https://cdn.prod.website-files.com/68eab013660119903f4a1ef5/6989101c8bef78c27946e043_pdf-icon.svg";
         pdfPhoto.classList.add("featured-list-image");
         pdfPhoto.classList.add("article");
         pdfTitle.classList.add("featured-list-heading");

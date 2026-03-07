@@ -860,6 +860,10 @@ blockquote {
   display: flex;
 }
 
+.small-hero-section.white {
+  background-color: #0000;
+}
+
 .small-hero-content-wrapper {
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
@@ -891,11 +895,15 @@ blockquote {
   max-width: 90ch;
 }
 
+.small-hero-text-container.gallery.black {
+  color: #101010;
+}
+
 .small-hero-image {
   box-sizing: border-box;
-  width: 100%;
   aspect-ratio: 3 / 2;
   border-radius: 2rem;
+  width: 100%;
   box-shadow: 0 0 12px 6px #ffffff5c;
 }
 
@@ -1000,10 +1008,10 @@ blockquote {
 }
 
 .services-page-subsection-image {
-  width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
   border-radius: 1rem;
+  width: 100%;
 }
 
 .phone-number-nav {
@@ -1117,6 +1125,11 @@ blockquote {
 
 .gallery-section-project-heading-small.neg-margin {
   margin-bottom: -1rem;
+}
+
+.email-received-image {
+  align-self: center;
+  width: 35%;
 }
 
 @media screen and (max-width: 991px) {
@@ -1254,6 +1267,10 @@ blockquote {
 
   .gallery-section-project-progress-image, .gallery-section-project-progress-image.smaller {
     max-width: 45%;
+  }
+
+  .email-received-image {
+    width: 45%;
   }
 }
 
@@ -1423,6 +1440,10 @@ blockquote {
   .gallery-section-project-heading-small {
     font-size: 1.75rem;
     line-height: 2.25rem;
+  }
+
+  .email-received-image {
+    width: 75%;
   }
 }
 
