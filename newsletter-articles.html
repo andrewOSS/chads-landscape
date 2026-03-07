@@ -106,9 +106,9 @@
   </footer>
   <div class="w-embed w-script">
     <script>
-const owner = 'pdf-association'; // replace with your GitHub username
-const repo = 'pdf20examples'; // replace with your repo name
-const folderPath = ''; // path to your PDFs folder
+const owner = 'andrewoss'; // replace with your GitHub username
+const repo = 'chads-landscape'; // replace with your repo name
+const folderPath = '/pdf-files/'; // path to your PDFs folder
 const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${folderPath}`;
 fetch(apiUrl)
   .then(response => response.json())
@@ -126,7 +126,7 @@ fetch(apiUrl)
         link.href = rawUrl;
         link.target = '_blank';
         pdfTitle.textContent = displayName;
-        pdfPhoto.src = "https://cdn.prod.website-files.com/68eab013660119903f4a1ef5/6989101c8bef78c27946e043_pdf-icon.svg";
+        pdfPhoto.src = "/images/pdf-icon.svg";
         pdfPhoto.classList.add("featured-list-image");
         pdfPhoto.classList.add("article");
         pdfTitle.classList.add("featured-list-heading");
