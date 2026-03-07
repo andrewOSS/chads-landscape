@@ -893,6 +893,7 @@ blockquote {
 
 .small-hero-image {
   box-sizing: border-box;
+  width: 100%;
   aspect-ratio: 3 / 2;
   border-radius: 2rem;
   box-shadow: 0 0 12px 6px #ffffff5c;
@@ -999,6 +1000,7 @@ blockquote {
 }
 
 .services-page-subsection-image {
+  width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
   border-radius: 1rem;
