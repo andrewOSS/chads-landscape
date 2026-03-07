@@ -266,7 +266,7 @@ blockquote {
   transition: border-color .3s cubic-bezier(.645, .045, .355, 1);
 }
 
-.nav-link-main:hover, .nav-link-main.w--current {
+.nav-link-main:hover, .nav-link-main.w-current {
   border-bottom-color: #317b01;
 }
 
@@ -965,7 +965,7 @@ blockquote {
   border-bottom-color: #101010;
 }
 
-.services-page-sticky-link.w--current {
+.services-page-sticky-link.w-current {
   border-bottom: 2px solid #101010;
   font-weight: 700;
 }
