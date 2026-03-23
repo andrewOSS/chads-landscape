@@ -270,6 +270,10 @@ blockquote {
   border-bottom-color: #317b01;
 }
 
+.current-page {
+  border-bottom-color: #317b01;
+}
+
 .hero-section {
   background-image: url('../images/hero-photo-edited-min.jpg');
   background-position: 50% 0;
